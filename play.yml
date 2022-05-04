@@ -8,7 +8,7 @@
   - name: copy website
     copy:
      content: "Hello website"
-     dest: /var/www/html/index/html
+     dest: /var/www/html/index.html
   - name: restart service
     service:
      name: httpd
